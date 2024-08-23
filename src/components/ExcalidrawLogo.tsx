@@ -30,6 +30,7 @@ export const ExcalidrawLogo = ({
   return (
     <div className={`ExcalidrawLogo is-${size}`} style={style}>
       <LogoIcon />
+
       {withText && <LogoText />}
     </div>
   );
